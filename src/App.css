@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .content{
@@ -39,6 +39,7 @@
     padding: 2rem;
     border-radius: 1rem;
     width: 70rem;
+    margin: 1rem;
 }
 
 .content img{
@@ -62,6 +63,7 @@
 .description__category{
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
 }
 
 .description__footer{
@@ -72,13 +74,28 @@
 
 .budge{
     color: black;
-    background-color: #cdcdcd;
+    background-color: #b1b1b1;
     padding: 0.5rem;
     border-radius: 1rem;
+}
+
+.budge-primary{
+    background-color: #098109;
+    color: white;
+}
+.budge-secondary{
+    background-color: #173b95;
+    color: white;
 }
 
 .date{
     font-size: 1.1rem;
     color: gray;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
 }
 
